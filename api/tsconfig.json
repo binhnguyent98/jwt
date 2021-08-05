@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                
+    "module": "commonjs",              
+    "strict": true,               
+    "outDir": ".dist",               
+    "esModuleInterop": true,                      
+    "skipLibCheck": true,                          
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": false, 
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@controllers/*": ["app/controllers/*"],
+      "@models/*": ["app/models/*"],
+      "@services/*": ["app/services/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": ["src" ]
+}
